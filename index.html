@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/stilo.css">
+    <title>LandingPage Responsivo</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img style="width: 50px;" src="img/logo.png" alt="">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="active-link nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#specs" class="nav__link active-link">Especificações</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#phone" class="nav__link active-link">Acessórios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link active-link">Produtos</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div>
+                    <img src="img/iphonepreto.png" alt="" class="home__img">
+                </div>
+                <div class="home__data">
+                    <div class="home__header">
+                        <h1 class="home__title">iPhone 13</h1>
+                        <h2 class="home__subtitle">Seu novo superpoder.</h2>
+                    </div>
+                    <div class="home__footer">
+                        <h3 class="home__title-description">Visão geral.</h3>
+                        <p class="home__description">Novo sistema de câmera dramaticamente mais poderoso.
+                            Tela responsiva que surpreende a cada toque. O chip de smartphone mais rápido do mundo.
+                            Design com resistência fora de série. E um salto imenso na duração da bateria.
+                        </p>
+                        <a href="" class="button button--flex">
+                            <span class="button--flex">
+                                <i class="ri-shopping-bag-2-line button__icon"></i> Adicionar ao carrinho.
+                            </span>
+                            <span class="home__price">R$ 9.499,00</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sponsor section">
+            <div class="sponsor__container container grid">
+                <img src="img/loja01.png" alt="" class="sponsor__img">
+                <img style="width: 150px;" src="img/loja02.png" alt="" class="sponsor__img">
+                <img src="img/loja03.png" alt="" class="sponsor__img">
+                <img src="img/loja05.png" alt="" class="sponsor__img">
+
+            </div>
+        </section>
+
+        <section class="specs section grid" id="specs">
+            <h2 class="section__title section__title-gradient">Especificações</h2>
+            <div class="specs__container container grid">
+                <div class="specs__content grid">
+
+                    <div class="specs__data">
+                        <i class="ri-camera-3-line specs__icon"></i>
+                        <h3 class="specs__title">Camera</h3>
+                        <span class="specs__subtitle">Nosso sistema de câmera dupla mais avançado até hoje.</span>
+
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-battery-line specs__icon"></i>
+                        <h3 class="specs__title">Bateria</h3>
+                        <span class="specs__subtitle">Um aumento notável na duração da bateria. </span>
+
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-cpu-line specs__icon"></i>
+                        <h3 class="specs__title">Processador</h3>
+                        <span class="specs__subtitle">Velocidade impressionante que deixa a concorrência para
+                            trás.</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-lock-2-line specs__icon"></i>
+                        <h3 class="specs__title">Segurança</h3>
+                        <span class="specs__subtitle">Segurança na frente, no meio e de ponta a ponta.</span>
+                    </div>
+                </div>
+                <div class="imgspecs">
+                    <img src="img/specs.png" alt="" class="specs__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="phone section grid" id="phone">
+            <h2 class="section__title section__title-gradient">AirPods</h2>
+            <div class="phone__container container grid">
+                <div class="imgphone">
+                    <img src="img/phone.png" alt="" class="phone__img">
+                </div>
+
+                <div class="phone__data">
+                    <p class="phone__description">Os AirPods têm áudio para o dia todo e
+                        são fáceis de levar e usar onde você quiser.
+                    </p>
+
+                    <a href="#" class="button button--flex" id="responsivo">
+                        <i class="ri-information-line button__icon"></i>Mais informações
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="products section" id="products">
+            <h2 class="section__title section__title-gradient products__line">Outros<br>Modelos</h2>
+
+            <div class="products__container container grid">
+
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="img/iphoneBranco.png" alt="" class="products__img">
+                        <h3 class="products__title">Branco</h3>
+                        <span class="products__price">R$ 9.499,00</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-2-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="img/rosa.png" alt="" class="products__img">
+                        <h3 class="products__title">Rosa</h3>
+                        <span class="products__price">R$ 9.499,00</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-2-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="img/dourado.png" alt="" class="products__img">
+                        <h3 class="products__title">Dourado</h3>
+                        <span class="products__price">R$ 9.499,00</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-2-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="img/vermelho.png" alt="" class="products__img">
+                        <h3 class="products__title">Vermelho</h3>
+                        <span class="products__price">R$ 9.499,00</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-2-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="img/azul.png" alt="" class="products__img">
+                        <h3 class="products__title">Azul</h3>
+                        <span class="products__price">R$ 9.499,00</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-2-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <a href="" class="footer__logo">
+                <img class="img__footer" src="img/logo2.png" alt="">
+            </a>
+            <div class="footer__content">
+                <h3 class="footer__title">Produtos</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">iPhone</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">AirPods</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">AirTags</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Acessórios</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer__content">
+                <h3 class="footer__title">Suporte</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Acessibilidade</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Ajuda para comprar</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Canais de Atendimento</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <form action="" class="footer__form">
+                    <input type="email" placeholder="Email" class="footer__input">
+                    <button class="button button--flex">
+                        <i class="ri-send-plane-line button__icon"></i>Assinar
+                    </button>
+                </form>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/profile.php?id=100014732822840" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/wesley.gomes.l/" target="_blank"  class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" target="_blank"  class="footer__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">
+            <a href="https://www.linkedin.com/in/wesley-gomes-b2bb79205/" target="_blank" class="footer__copy-link">
+                &#169; Wesley Gomes
+            </a>
+        </p>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+
+
+
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
